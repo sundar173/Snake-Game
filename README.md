@@ -20,9 +20,10 @@ I made further tweaks based on the suggestions given in the comments section of 
     
 2. To better smoothness of output screen
 
-![image](https://user-images.githubusercontent.com/82727990/170605478-0a64b7fe-cb5d-4875-876d-5e3c20cedfbf.png)
+    ![image](https://user-images.githubusercontent.com/82727990/170605478-0a64b7fe-cb5d-4875-876d-5e3c20cedfbf.png)
 
-
+3. #include<ctime>
+    srand(time(0)); // For different starting location for the fruit on each startup
 
 
 
