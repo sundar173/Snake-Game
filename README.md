@@ -32,10 +32,12 @@ I made further tweaks based on the suggestions given in the comments section of 
 
 5. For using arrow keys for Controls:
     ```
-    #define KEY_UP 72
+    
+        #define KEY_UP 72
         #define KEY_DOWN 80
         #define KEY_LEFT 75
         #define KEY_RIGHT 77
+    
     ```
     Currently not used since it jumps too fast
 
