@@ -9,13 +9,12 @@ I made further tweaks based on the suggestions given in the comments section of 
 
 1. To avoid flickering cursor in the .exe file, 
 
-// To avoid flickering cursor
-void ShowConsoleCursor(bool showFlag)
-{
-    HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
-    CONSOLE_CURSOR_INFO cursorInfo;
-    GetConsoleCursorInfo(out, &cursorInfo);
-    cursorInfo.bVisible = showFlag; // set the cursor visibility
-    SetConsoleCursorInfo(out, &cursorInfo);
-}
+    void ShowConsoleCursor(bool showFlag)
+    {
+        HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
+        CONSOLE_CURSOR_INFO cursorInfo;
+        GetConsoleCursorInfo(out, &cursorInfo);
+        cursorInfo.bVisible = showFlag; // set the cursor visibility
+        SetConsoleCursorInfo(out, &cursorInfo);
+    }
 
