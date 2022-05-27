@@ -17,4 +17,10 @@ I made further tweaks based on the suggestions given in the comments section of 
         cursorInfo.bVisible = showFlag; // set the cursor visibility
         SetConsoleCursorInfo(out, &cursorInfo);
     }
+    
+    2. To better smoothness of output screen
+![image](https://user-images.githubusercontent.com/82727990/170604956-fb8a38ea-bfaf-415b-8c9c-d165041c3c9e.png)
+
+
+
 
