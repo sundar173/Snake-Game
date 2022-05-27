@@ -1,0 +1,4 @@
+build/
+*.exe
+main2.cpp
+main3.cpp
