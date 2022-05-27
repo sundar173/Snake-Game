@@ -9,6 +9,7 @@ I made further tweaks based on the suggestions given in the comments section of 
 
 1. To avoid flickering cursor in the .exe file, 
 
+```
     void ShowConsoleCursor(bool showFlag)
     {
         HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -16,8 +17,9 @@ I made further tweaks based on the suggestions given in the comments section of 
         GetConsoleCursorInfo(out, &cursorInfo);
         cursorInfo.bVisible = showFlag; // set the cursor visibility
         SetConsoleCursorInfo(out, &cursorInfo);
-    }
-    
+    } 
+``` 
+
 2. To better smoothness of output screen
 
     ![image](https://user-images.githubusercontent.com/82727990/170605478-0a64b7fe-cb5d-4875-876d-5e3c20cedfbf.png)
@@ -29,10 +31,12 @@ I made further tweaks based on the suggestions given in the comments section of 
     ![image](https://user-images.githubusercontent.com/82727990/170605596-6cb0d11f-cd55-4b17-91b5-22c91e080a9f.png)
 
 5. For using arrow keys for Controls:
+    ```
     	#define KEY_UP 72
         #define KEY_DOWN 80
         #define KEY_LEFT 75
         #define KEY_RIGHT 77
+    ```
     Currently not used since it jumps too fast
 
 
