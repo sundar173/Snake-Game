@@ -1,13 +1,13 @@
 # Snake-Game
 
-My first attempt at building a game for Fun. 
+My first attempt at building a game for Fun in C++. 
 
 The following video helped me with this attempt, 
 https://www.youtube.com/watch?v=PSoLD9mVXTA&list=PLRJuRxIsYMUX3iSmvyWPdKFaCooL455YQ&index=14
 
+I made further tweaks based on the suggestions given in the comments section of the above video. The following summarizes those with code snippets, 
 
-	1. To avoid flickering cursor in the .exe file, 
-
+1. To avoid flickering cursor in the .exe file, 
 
 // To avoid flickering cursor
 void ShowConsoleCursor(bool showFlag)
@@ -19,21 +19,19 @@ void ShowConsoleCursor(bool showFlag)
     SetConsoleCursorInfo(out, &cursorInfo);
 }
 
-	2. To better smoothness of output screen
+2. To better smoothness of output screen
 ![image](https://user-images.githubusercontent.com/82727990/170604956-fb8a38ea-bfaf-415b-8c9c-d165041c3c9e.png)
 
-
-
+3. // For different starting location for the fruit on each startup
+	#include<ctime>
+	srand(time(0)); 
+	
+4. To restart the game, 
+	
+![image](https://user-images.githubusercontent.com/82727990/170605004-51cfc59a-9f78-49c2-82cc-d0ce985bc77a.png)
 
 	
-	3. #include<ctime>
-	srand(time(0)); // For different starting location for the fruit on each startup
-	
-	4. To restart the game, 
-
-	
-	5. For using arrow keys for Controls:
-
+5. For using arrow keys for Controls:
 
 	#define KEY_UP 72
 	#define KEY_DOWN 80
