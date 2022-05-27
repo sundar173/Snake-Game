@@ -25,5 +25,15 @@ I made further tweaks based on the suggestions given in the comments section of 
 3. #include<ctime>
     srand(time(0)); // For different starting location for the fruit on each startup
 
+4. To restart the game,
+    ![image](https://user-images.githubusercontent.com/82727990/170605596-6cb0d11f-cd55-4b17-91b5-22c91e080a9f.png)
+
+5. For using arrow keys for Controls:
+    	#define KEY_UP 72
+        #define KEY_DOWN 80
+        #define KEY_LEFT 75
+        #define KEY_RIGHT 77
+    Currently not used since it jumps too fast
+
 
 
