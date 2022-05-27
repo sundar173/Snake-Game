@@ -20,7 +20,8 @@ I made further tweaks based on the suggestions given in the comments section of 
     
 2. To better smoothness of output screen
 
-![image](https://user-images.githubusercontent.com/82727990/170604956-fb8a38ea-bfaf-415b-8c9c-d165041c3c9e.png)
+![image](https://user-images.githubusercontent.com/82727990/170605478-0a64b7fe-cb5d-4875-876d-5e3c20cedfbf.png)
+
 
 
 
